@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta name="description" content="whyuxD | Space Portfolio" />
+    <meta name="theme-color" content="#020617" />
+    <title>My Portfolio</title>
+
+    <link rel="icon" href="https://i.8upload.com/image/122b90482a1c8245/30f2dd4d-9911-4959-bbfa-fc27445df4ff.jpg" type="image/jpeg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    
+</head>
+<body>
+
+    <canvas id="cosmic-canvas"></canvas>
+
+    <nav class="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-xl px-4">
+        <div class="glass-pro rounded-full py-3 px-6 md:px-8 flex justify-between items-center gap-2 border-[rgba(255,255,255,0.08)]">
+            <a href="#about" class="nav-link text-[10px] uppercase tracking-widest font-semibold font-heading flex items-center gap-1.5">
+                <i class="fa-solid fa-user text-xs opacity-80"></i> About
+            </a>
+            <a href="#skills" class="nav-link text-[10px] uppercase tracking-widest font-semibold font-heading flex items-center gap-1.5">
+                <i class="fa-solid fa-flask text-xs opacity-80"></i> Skills
+            </a>
+            <a href="#projects" class="nav-link text-[10px] uppercase tracking-widest font-semibold font-heading flex items-center gap-1.5">
+                <i class="fa-solid fa-rocket text-xs opacity-80"></i> Projects
+            </a>
+            <a href="#contact" class="nav-link text-[10px] uppercase tracking-widest font-semibold font-heading flex items-center gap-1.5">
+                <i class="fa-solid fa-satellite-dish text-xs opacity-80"></i> Contact
+            </a>
+        </div>
+    </nav>
+
+    <main class="relative z-10 max-w-4xl mx-auto px-6 pt-32 pb-24">
+        
+        <section class="text-center mb-32 reveal active" id="about">
+            <div class="profile-container mb-12 group">
+                <div class="absolute -top-1 -right-1 z-30 bg-plasma p-2 rounded-lg shadow-[0_0_15px_#0ea5e9] rotate-12 group-hover:rotate-0 transition-transform duration-300">
+                    <i class="fa-solid fa-code text-white text-xs"></i>
+                </div>
+                <div class="profile-ring"></div>
+                <div class="profile-ring-fast"></div>
+                <div class="hero-glow-wrapper"><div class="hero-glow"></div></div>
+                <img src="https://i.8upload.com/image/ab90758bec544eff/img-20260107-141845-392.jpg" 
+                     class="w-full h-full rounded-full object-cover border-4 border-void relative z-10 shadow-2xl" alt="whyuxD.jpang.bokep.hd.rill.jir" />
+            </div>
+            
+            <h1 class="text-5xl md:text-8xl font-heading font-extrabold mb-6 tracking-tighter leading-none">
+                Hi!, I'm <span class="gradient-text">whyuxD</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 font-light max-w-2xl mx-auto leading-relaxed">
+                A <span class="text-white font-medium border-b border-plasma">Beginner Developer</span> from West Sulawesi, Indonesia. u can call me <span class="text-white font-medium border-b border-plasma">Wahyu.</span> i just made and run a few scripts... 
+such as NodeJS WhatsApp Bot, NodeJS Discord Bot, NodeJS Telegram Bot, NodeJS Instagram Bot, Website Static and other scripts..
+            </p>
+        </section>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-32 reveal">
+            <div class="tilt-card glass-pro rounded-2xl p-6 text-center border-slate-800/60 flex flex-col justify-center min-h-[140px] group">
+                <div class="tilt-inner">
+                    <i class="fa-solid fa-diagram-project text-xl text-plasma mb-2 opacity-80 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="text-4xl font-heading font-bold text-white tracking-tight">10+</h3>
+                    <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Projects</p>
+                </div>
+            </div>
+            <div class="tilt-card glass-pro rounded-2xl p-6 text-center border-slate-800/60 flex flex-col justify-center min-h-[140px] group">
+                <div class="tilt-inner">
+                    <i class="fa-solid fa-hourglass-half text-xl text-purple-500 mb-2 opacity-80 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="text-4xl font-heading font-bold text-white tracking-tight">2.5</h3>
+                    <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Years Exp</p>
+                </div>
+            </div>
+            <div class="tilt-card glass-pro rounded-2xl p-6 text-center border-slate-800/60 flex flex-col justify-center min-h-[140px] group">
+                <div class="tilt-inner">
+                    <i class="fa-solid fa-brain text-xl text-yellow-500 mb-2 opacity-80 group-hover:scale-110 transition-transform"></i>
+                    <h3 class="text-4xl font-heading font-bold text-white tracking-tight">24/7</h3>
+                    <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Learning</p>
+                </div>
+            </div>
+            <div class="tilt-card glass-pro rounded-2xl p-6 text-center border-slate-800/60 min-h-[140px] flex flex-col justify-center group">
+                <div class="tilt-inner">
+                    <div class="flex items-center justify-center gap-2 mb-2">
+                        <div class="relative flex items-center justify-center w-3 h-3">
+                            <div class="w-2.5 h-2.5 bg-emerald-500 rounded-full animate-ping absolute"></div>
+                            <div class="w-2.5 h-2.5 bg-emerald-500 rounded-full relative"></div>
+                        </div>
+                        <h3 class="text-2xl font-heading font-bold text-white">Active</h3>
+                    </div>
+                    <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Status</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="mb-32 reveal" id="skills">
+            <div class="flex items-center gap-4 mb-12">
+                <h2 class="text-2xl font-heading font-bold tracking-tight flex items-center gap-2">
+                    <i class="fa-solid fa-microchip text-plasma text-xl"></i> Tech Lab
+                </h2>
+                <div class="h-[1px] flex-1 bg-gradient-to-r from-plasma to-transparent opacity-30"></div>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="tilt-card glass-pro rounded-2xl p-6 flex flex-col items-center group border-slate-800/60">
+                    <i class="fab fa-js text-4xl text-yellow-400 mb-4 transition-transform group-hover:scale-110"></i>
+                    <span class="font-medium text-xs text-slate-200">JavaScript</span>
+                </div>
+                <div class="tilt-card glass-pro rounded-2xl p-6 flex flex-col items-center group border-slate-800/60">
+                    <i class="fab fa-node-js text-4xl text-emerald-500 mb-4 transition-transform group-hover:scale-110"></i>
+                    <span class="font-medium text-xs text-slate-200">Node.js</span>
+                </div>
+                <div class="tilt-card skill-card glass-pro rounded-2xl p-6 flex flex-col items-center group border-slate-800/60">
+                    <i class="fa-solid fa-code text-4xl text-plasma mb-4 transition-transform group-hover:scale-110"></i>
+                    <span class="font-medium text-xs text-slate-200">Coders</span>
+                </div>
+                <div class="tilt-card skill-card glass-pro rounded-2xl p-6 flex flex-col items-center group border-slate-800/60">
+                    <i class="fa-solid fa-robot text-4xl text-purple-500 mb-4 transition-transform group-hover:scale-110"></i>
+                    <span class="font-medium text-xs text-slate-200">Bot Engine</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-32 reveal" id="projects">
+            <div class="glass-pro rounded-3xl p-10 md:p-16 border-indigo-500/20 relative overflow-hidden text-center">
+                <div class="absolute -top-24 -right-24 w-80 h-80 bg-indigo-600 opacity-10 filter blur-3xl"></div>
+                <h2 class="text-3xl md:text-5xl font-heading font-bold mb-6 flex items-center justify-center gap-3">
+                    <i class="fa-solid fa-seedling text-indigo-400 text-3xl md:text-4xl"></i> Laboratory
+                </h2>
+                <p class="text-slate-400 mb-10 max-w-lg mx-auto font-light">Explore production-ready systems on GitHub</p>
+                <a href="https://github.com/whyuxD-wx" target="_blank" id="btn-premium" 
+                   class="inline-flex items-center gap-3 px-8 py-4 rounded-full font-bold uppercase tracking-wider text-xs text-white">
+                    <i class="fab fa-github text-base"></i> Launch Space Station
+                </a>
+            </div>
+        </section>
+
+        <footer class="pt-16 border-t border-slate-900 reveal" id="contact">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+                <div class="text-center md:text-left">
+                    <h2 class="text-xl font-heading font-bold mb-2">Connect Orbit With</h2>
+                    <p class="text-slate-500 text-sm font-light">Available for mission collaborations</p>
+                </div>
+                <div class="flex gap-4">
+                    <a href="https://t.me/w7yuxD" target="_blank" class="w-12 h-12 glass-pro rounded-full flex items-center justify-center hover:bg-indigo-600/30 transition-all">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                    <a href="https://wa.me/message/LZZEGFB3SI33M1" target="_blank" class="w-12 h-12 glass-pro rounded-full flex items-center justify-center hover:bg-emerald-600/30 transition-all">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://instagram.com/whyu.exc" class="w-12 h-12 glass-pro rounded-full flex items-center justify-center hover:bg-sky-600/30 transition-all">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-20 text-center">
+                <p class="text-[10px] text-slate-600 uppercase tracking-[0.2em]">&copy; 2026 Architected by Ai & whyuxD</p>
+            </div>
+        </footer>
+    </main>
+
+   <link rel="stylesheet" href="style.css">
+    <script src="fck.js"></script>
+</body>
+</html>
